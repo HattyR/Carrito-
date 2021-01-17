@@ -3,11 +3,11 @@ body {
 }
 
 .navbar {
-    position: fixed;
+    position: fixed;        /*Para que se quede fija*/
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 1;             /*Se pone por encima de todos los elementos que le pasen*/
 }
 
 .navbar .logo {
@@ -24,7 +24,7 @@ body {
 }
 
 .cart-container {
-    position: relative;
+    position: relative;         
 }
 
 .cart-products {
@@ -35,10 +35,10 @@ body {
     width: 300px;
     max-height: 400px;
     height: 0;
-    overflow: scroll;
+    overflow: scroll;               
 }
 
-.cart-products.active {
+.cart-products.active {             
     height: auto;
 }
 
@@ -51,10 +51,10 @@ body {
 }
 
 .cart-product.empty {
-    justify-content: center;
+    justify-content: center;            /* Centra el contenido*/
 }
 
-.cart-product img {
+.cart-product img { 
     width: 100px;
 }
 
@@ -73,7 +73,7 @@ body {
 }
 
 .cart-product-delete button:hover {
-    text-decoration: underline;
+    text-decoration: underline;         
 }
 
 .cart-product-info {
@@ -114,7 +114,7 @@ body {
 }
 
 .product {
-    width: 100% !important;
+    width: 100% !important;             /*Important lo sobreescribe*/
     border-radius: 15px;
     overflow: hidden;
 }
